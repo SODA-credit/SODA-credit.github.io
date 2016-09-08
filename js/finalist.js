@@ -1,0 +1,1 @@
+var finalists=[{"project": "\u53e6\u4e00\u4e2a\u9879\u76ee", "team_en": "Another Team", "project_en": "Another Project", "team_pinyin": "lingyigetuandui", "team": "\u53e6\u4e00\u4e2a\u56e2\u961f"}, {"project": "\u4e00\u4e2a\u9879\u76ee", "team_en": "One Team", "project_en": "One Project", "team_pinyin": "yigetuurandv", "team": "\u4e00\u4e2a\u56e2\u961f"}];var show_top_100=1;
