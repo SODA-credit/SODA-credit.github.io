@@ -37,7 +37,22 @@ $(document).ready(function () {
         });
     } else {
         $('#award .special-col').css('opacity', 1);
+        $('.timeline').addClass('mobile');
+        $('.timeline-inverted').each(function () {
+            $(this).removeClass('timeline-inverted');
+        });
+        $('.timeline-panel.right').each(function () {
+            $(this).removeClass('right');
+            $(this).addClass('left');
+        });
+        $('.timeline-badge').css({
+            'left': '90%'
+        })
+        $('.timeline-panel').css({
+            'width': '80%'
+        });
     }
+
 
     $('section, .fake-anchor').each(function () {
         if ($(this).attr('id')) {

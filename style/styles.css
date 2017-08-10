@@ -5896,6 +5896,13 @@ header .hero #header-logo .logo-big.animated {
     -webkit-animation: logoBounce 1.76s;
     animation: logoBounce 1.76s;
 }
+
+header .hero img{
+
+    margin: auto;
+    padding-top:100px;
+}
+
 header.subheader {
     height: 390px;
 }
