@@ -6930,3 +6930,18 @@ footer.home-footer .container .qrcode {
     background-size: 370px 200px;
 }
 }
+
+
+
+header .hero #header-logo {
+    z-index: 100;
+}
+
+header .hero #header-logo {
+    position: absolute;
+    right: 50%;
+    top: 50%;
+    -webkit-transform: translate(50%,-50%);
+    -ms-transform: translate(50%,-50%);
+    transform: translate(50%,-50%);
+}
